@@ -56,6 +56,18 @@ footer{background:#04101a;color:#aeb8bf;padding:40px 0;font-family:Arial,sans-se
 .hero-grid{padding:25px 0}.book-mock{width:280px}.cards{grid-template-columns:1fr}.points{grid-template-columns:1fr}
 .portrait{min-height:380px}section{padding:70px 0}
 }
+  .author-photo{
+    width: 100%;
+    max-width: 360px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 18px;
+    border: 2px solid rgba(212, 175, 55, 0.75);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+    display: block;
+    margin: 0 auto;
+}
 </style>
 <link rel="icon" type="image/png" href="JWBooks_logo.png">
 </head>
@@ -89,7 +101,7 @@ footer{background:#04101a;color:#aeb8bf;padding:40px 0;font-family:Arial,sans-se
   <div class="wrap about-grid">
     <div class="portrait">
       <div>
-        <div class="monogram">JW</div>
+        <img class="author-photo" src="Joshua_White_Author.png" alt="Joshua white, author of Kingdom Courtship">
         <p class="small">AUTHOR • SPEAKER • BELIEVER</p>
       </div>
     </div>
